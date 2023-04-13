@@ -1,0 +1,11 @@
+{
+  "botium": {
+    "Capabilities": {
+      "SCRIPTING_MATCHING_MODE": "wildcardIgnoreCase",
+      "CONTAINERMODE": "echo",
+      "SCRIPTING_MATCHING_MODE": "include",
+      "SCRIPTING_ENABLE_MEMORY": "true"
+    },
+    "Envs": {}
+  }
+}

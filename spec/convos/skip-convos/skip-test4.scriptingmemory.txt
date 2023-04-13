@@ -1,0 +1,3 @@
+     |$productName    |$customer
+Case1|Wiener Schnitzel|Joe
+Case2|Frankfurter     |Joe

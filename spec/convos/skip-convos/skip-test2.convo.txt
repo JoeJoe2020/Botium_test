@@ -1,0 +1,14 @@
+give me picture
+
+#me
+Hello, bot!
+
+#bot
+TEXT_EQUALS_IC you said: Hello, bot!
+
+#me
+give me a picture
+
+#bot
+Here is a picture
+MEDIA logo.png

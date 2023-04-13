@@ -1,0 +1,26 @@
+BUY_AN_ITEM
+#include PCONVO_GREETING
+
+#me
+What can I do for you?
+
+#bot
+You said: What can I do for you?
+
+#me
+I want to buy a $product.
+
+#bot
+TEXT_CONTAINS_ALL_IC $product
+
+#me
+How much is it ?
+
+#bot
+You said: How much is it ?
+
+#me
+It is $price
+
+#bot
+TEXT_CONTAINS_ALL $price
