@@ -1,4 +1,4 @@
-# 每一列之间通过tab来空格，不能用空格键，YAML格式的要求
+# Concern with the YAML syntax
 convos:
   - name: goodbye
     description: desc of convo goodbye
@@ -35,8 +35,11 @@ convos:
       - me:
           - thanks
       - bot:
-      # 必须加引号，否则不能识别asserter
+      # Have to add "" to identify asserters
           - "!TEXT_IC sorry"
+          # Anaother way to add an asserter
+          # - TEXT_IC:
+          #   - sorry
   - name: Update
     description: desc of convo price updating
     steps:
@@ -53,7 +56,7 @@ convos:
       - end:
         - CLEAR_SCRIPTING_MEMORY new_values
 utterances:
-  # 因为工程中已经存在GREETING utterance，同名会导致utterance内容继续拓展，因此会生成更多的用例
+  # Same utterance name will aggregate the number of test cases
   GREETING:
     - hi
     - hello!
