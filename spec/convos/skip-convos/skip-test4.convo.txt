@@ -1,0 +1,10 @@
+test4
+
+#me
+Hello, Wiener Schnitzel
+
+#bot
+$productName
+
+#end
+BOT_UNCONSUMED_COUNT =0

@@ -1,0 +1,8 @@
+PCONVO_GREETING
+
+#me
+GREETING
+
+#bot
+GREETING
+

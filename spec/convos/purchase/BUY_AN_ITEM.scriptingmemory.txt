@@ -1,0 +1,3 @@
+	|$product|$price
+Case1|cake|10
+Case2|code|5

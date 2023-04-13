@@ -1,0 +1,39 @@
+shortconvos
+
+#begin
+PAUSE 3000
+SKIP_BOT_UNCONSUMED
+
+#me
+Hello
+
+#bot
+GREETING
+
+#me
+My ID number is id_123456
+
+#bot
+TEXT_REGEXP_ALL ^.*?id_\d{6}.*?$
+RESPONSE_LENGTH 50|1
+
+#me
+What is the weather like today?
+
+#bot
+TEXT_WILDCARD_ANY What * weather * today?|How * weather * today?
+
+#me
+It's rainy and a little windy.
+
+#bot
+TEXT_CONTAINS_ALL rainy|windy
+
+#me
+Bye bye
+
+#bot
+TEXT_CONTAINS_ALL_IC bye bye
+
+#end
+BOT_UNCONSUMED_COUNT =0

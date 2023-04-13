@@ -1,0 +1,10 @@
+Clear welcome message
+
+#me
+Hello
+
+#bot
+TEXT_WILDCARD_ALL *
+
+#end
+BOT_UNCONSUMED_COUNT =1

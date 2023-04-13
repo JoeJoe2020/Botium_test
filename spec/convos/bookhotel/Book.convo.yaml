@@ -1,0 +1,72 @@
+# 每一列之间通过tab来空格，不能用空格键，YAML格式的要求
+convos:
+  - name: goodbye
+    description: desc of convo goodbye
+    steps:
+      - begin:
+          - PAUSE 500
+      - me:
+          - goodbye!
+      - bot:
+          - bye
+  - name: BOOK_A_ROOM
+    description: desc of convo book
+    steps:
+      - me:
+          - GREETING
+          - PAUSE:
+            - 500
+      - bot:
+          - SKIP_BOT_UNCONSUMED
+      - me:
+          - what can i do for you?
+      - bot:
+          - what can i do for you?
+      - me:
+          - Today is $date_EN
+      - bot:
+          - TEXT_REGEXP_ALL:
+            - ^.*?\d{1,2}/\d{1,2}/202[0-9].*?$
+      - me:
+          - BOOK $type
+      - bot:
+          - TEXT_CONTAINS_ALL:
+            - double
+      - me:
+          - thanks
+      - bot:
+      # 必须加引号，否则不能识别asserter
+          - "!TEXT_IC sorry"
+  - name: Update
+    description: desc of convo price updating
+    steps:
+      - begin:
+        - SET_SCRIPTING_MEMORY $new_value|330
+      - me:
+        - The previous price is 300
+      - bot:
+        - "300"
+      - me:
+        - The current price is 330
+      - bot:
+        - $new_value
+      - end:
+        - CLEAR_SCRIPTING_MEMORY new_values
+utterances:
+  # 因为工程中已经存在GREETING utterance，同名会导致utterance内容继续拓展，因此会生成更多的用例
+  GREETING:
+    - hi
+    - hello!
+  BOOK:
+    - I want to book a %s room.
+scriptingMemory:
+  - header:
+      name: scenario1
+    values:
+      $type: single
+      $value: 300
+  - header:
+      name: scenario2
+    values:
+      $type: double
+      $value: 360

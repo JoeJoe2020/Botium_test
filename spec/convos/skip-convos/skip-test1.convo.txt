@@ -1,0 +1,14 @@
+give me picture
+
+#me
+Hello, bot!
+
+#bot
+RESPONSE_LENGTH 21|1
+
+#me
+give me a picture
+
+#bot
+Here is a picture
+MEDIA logo.png
