@@ -38,7 +38,7 @@ convos:
       # Have to add "" to identify asserters
           - "!TEXT_IC sorry"
           # Anaother way to add an asserter
-          # - TEXT_IC:
+          # - NOT_TEXT_IC:
           #   - sorry
   - name: Update
     description: desc of convo price updating

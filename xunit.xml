@@ -1,0 +1,229 @@
+<testsuite name="Mocha Tests" tests="31" failures="0" errors="7" skipped="0" timestamp="Fri, 14 Apr 2023 01:37:25 GMT" time="10.765">
+<testcase classname="Botium Test-Suite" name="BOOK_A_ROOM.scenario1/GREETING-L1/BOOK-L1" time="0.521"><failure>BOOK_A_ROOM.scenario1/GREETING-L1/BOOK-L1/Line 08: assertion error - Line 08: Expected text(s) in response &#x22;double&#x22;
+########################################
+ASSERTION FAILED in undefined - Expected: [&#x22;double&#x22;]  - Actual: {&#x22;sender&#x22;:&#x22;bot&#x22;,&#x22;sourceData&#x22;:{&#x22;request&#x22;:{&#x22;messageText&#x22;:&#x22;I want to book a single room.&#x22;,&#x22;buttons&#x22;:null,&#x22;media&#x22;:null},&#x22;session&#x22;:{}},&#x22;messageText&#x22;:&#x22;You said: I want to book a single room.&#x22;,&#x22;channel&#x22;:&#x22;default&#x22;}
+INPUT: I want to book a $type room.
+------------ TRANSCRIPT ----------------------------
+#me: Hello
+#bot: You said: Hello
+#me: what can i do for you?
+#bot: You said: what can i do for you?
+#me: Today is 4/14/2023
+#bot: You said: Today is 4/14/2023
+#me: I want to book a single room.
+#bot: You said: I want to book a single room.
+Error: BOOK_A_ROOM.scenario1/GREETING-L1/BOOK-L1/Line 08: assertion error - Line 08: Expected text(s) in response &#x22;double&#x22;
+########################################
+ASSERTION FAILED in undefined - Expected: [&#x22;double&#x22;]  - Actual: {&#x22;sender&#x22;:&#x22;bot&#x22;,&#x22;sourceData&#x22;:{&#x22;request&#x22;:{&#x22;messageText&#x22;:&#x22;I want to book a single room.&#x22;,&#x22;buttons&#x22;:null,&#x22;media&#x22;:null},&#x22;session&#x22;:{}},&#x22;messageText&#x22;:&#x22;You said: I want to book a single room.&#x22;,&#x22;channel&#x22;:&#x22;default&#x22;}
+INPUT: I want to book a $type room.
+------------ TRANSCRIPT ----------------------------
+#me: Hello
+#bot: You said: Hello
+#me: what can i do for you?
+#bot: You said: what can i do for you?
+#me: Today is 4/14/2023
+#bot: You said: Today is 4/14/2023
+#me: I want to book a single room.
+#bot: You said: I want to book a single room.
+    at wrapBotiumError (/usr/local/lib/node_modules/botium-cli/src/run/index.js:76:12)
+    at finish (/usr/local/lib/node_modules/botium-cli/src/run/index.js:205:24)
+    at /usr/local/lib/node_modules/botium-cli/src/run/index.js:218:11</failure></testcase>
+<testcase classname="Botium Test-Suite" name="BOOK_A_ROOM.scenario1/GREETING-L2/BOOK-L1" time="0.508"><failure>BOOK_A_ROOM.scenario1/GREETING-L2/BOOK-L1/Line 08: assertion error - Line 08: Expected text(s) in response &#x22;double&#x22;
+########################################
+ASSERTION FAILED in undefined - Expected: [&#x22;double&#x22;]  - Actual: {&#x22;sender&#x22;:&#x22;bot&#x22;,&#x22;sourceData&#x22;:{&#x22;request&#x22;:{&#x22;messageText&#x22;:&#x22;I want to book a single room.&#x22;,&#x22;buttons&#x22;:null,&#x22;media&#x22;:null},&#x22;session&#x22;:{}},&#x22;messageText&#x22;:&#x22;You said: I want to book a single room.&#x22;,&#x22;channel&#x22;:&#x22;default&#x22;}
+INPUT: I want to book a $type room.
+------------ TRANSCRIPT ----------------------------
+#me: Hi
+#bot: You said: Hi
+#me: what can i do for you?
+#bot: You said: what can i do for you?
+#me: Today is 4/14/2023
+#bot: You said: Today is 4/14/2023
+#me: I want to book a single room.
+#bot: You said: I want to book a single room.
+Error: BOOK_A_ROOM.scenario1/GREETING-L2/BOOK-L1/Line 08: assertion error - Line 08: Expected text(s) in response &#x22;double&#x22;
+########################################
+ASSERTION FAILED in undefined - Expected: [&#x22;double&#x22;]  - Actual: {&#x22;sender&#x22;:&#x22;bot&#x22;,&#x22;sourceData&#x22;:{&#x22;request&#x22;:{&#x22;messageText&#x22;:&#x22;I want to book a single room.&#x22;,&#x22;buttons&#x22;:null,&#x22;media&#x22;:null},&#x22;session&#x22;:{}},&#x22;messageText&#x22;:&#x22;You said: I want to book a single room.&#x22;,&#x22;channel&#x22;:&#x22;default&#x22;}
+INPUT: I want to book a $type room.
+------------ TRANSCRIPT ----------------------------
+#me: Hi
+#bot: You said: Hi
+#me: what can i do for you?
+#bot: You said: what can i do for you?
+#me: Today is 4/14/2023
+#bot: You said: Today is 4/14/2023
+#me: I want to book a single room.
+#bot: You said: I want to book a single room.
+    at wrapBotiumError (/usr/local/lib/node_modules/botium-cli/src/run/index.js:76:12)
+    at finish (/usr/local/lib/node_modules/botium-cli/src/run/index.js:205:24)
+    at /usr/local/lib/node_modules/botium-cli/src/run/index.js:218:11</failure></testcase>
+<testcase classname="Botium Test-Suite" name="BOOK_A_ROOM.scenario1/GREETING-L3/BOOK-L1" time="0.507"><failure>BOOK_A_ROOM.scenario1/GREETING-L3/BOOK-L1/Line 08: assertion error - Line 08: Expected text(s) in response &#x22;double&#x22;
+########################################
+ASSERTION FAILED in undefined - Expected: [&#x22;double&#x22;]  - Actual: {&#x22;sender&#x22;:&#x22;bot&#x22;,&#x22;sourceData&#x22;:{&#x22;request&#x22;:{&#x22;messageText&#x22;:&#x22;I want to book a single room.&#x22;,&#x22;buttons&#x22;:null,&#x22;media&#x22;:null},&#x22;session&#x22;:{}},&#x22;messageText&#x22;:&#x22;You said: I want to book a single room.&#x22;,&#x22;channel&#x22;:&#x22;default&#x22;}
+INPUT: I want to book a $type room.
+------------ TRANSCRIPT ----------------------------
+#me: Good morning
+#bot: You said: Good morning
+#me: what can i do for you?
+#bot: You said: what can i do for you?
+#me: Today is 4/14/2023
+#bot: You said: Today is 4/14/2023
+#me: I want to book a single room.
+#bot: You said: I want to book a single room.
+Error: BOOK_A_ROOM.scenario1/GREETING-L3/BOOK-L1/Line 08: assertion error - Line 08: Expected text(s) in response &#x22;double&#x22;
+########################################
+ASSERTION FAILED in undefined - Expected: [&#x22;double&#x22;]  - Actual: {&#x22;sender&#x22;:&#x22;bot&#x22;,&#x22;sourceData&#x22;:{&#x22;request&#x22;:{&#x22;messageText&#x22;:&#x22;I want to book a single room.&#x22;,&#x22;buttons&#x22;:null,&#x22;media&#x22;:null},&#x22;session&#x22;:{}},&#x22;messageText&#x22;:&#x22;You said: I want to book a single room.&#x22;,&#x22;channel&#x22;:&#x22;default&#x22;}
+INPUT: I want to book a $type room.
+------------ TRANSCRIPT ----------------------------
+#me: Good morning
+#bot: You said: Good morning
+#me: what can i do for you?
+#bot: You said: what can i do for you?
+#me: Today is 4/14/2023
+#bot: You said: Today is 4/14/2023
+#me: I want to book a single room.
+#bot: You said: I want to book a single room.
+    at wrapBotiumError (/usr/local/lib/node_modules/botium-cli/src/run/index.js:76:12)
+    at finish (/usr/local/lib/node_modules/botium-cli/src/run/index.js:205:24)
+    at /usr/local/lib/node_modules/botium-cli/src/run/index.js:218:11</failure></testcase>
+<testcase classname="Botium Test-Suite" name="BOOK_A_ROOM.scenario1/GREETING-L4/BOOK-L1" time="0.507"><failure>BOOK_A_ROOM.scenario1/GREETING-L4/BOOK-L1/Line 08: assertion error - Line 08: Expected text(s) in response &#x22;double&#x22;
+########################################
+ASSERTION FAILED in undefined - Expected: [&#x22;double&#x22;]  - Actual: {&#x22;sender&#x22;:&#x22;bot&#x22;,&#x22;sourceData&#x22;:{&#x22;request&#x22;:{&#x22;messageText&#x22;:&#x22;I want to book a single room.&#x22;,&#x22;buttons&#x22;:null,&#x22;media&#x22;:null},&#x22;session&#x22;:{}},&#x22;messageText&#x22;:&#x22;You said: I want to book a single room.&#x22;,&#x22;channel&#x22;:&#x22;default&#x22;}
+INPUT: I want to book a $type room.
+------------ TRANSCRIPT ----------------------------
+#me: Good afternoon
+#bot: You said: Good afternoon
+#me: what can i do for you?
+#bot: You said: what can i do for you?
+#me: Today is 4/14/2023
+#bot: You said: Today is 4/14/2023
+#me: I want to book a single room.
+#bot: You said: I want to book a single room.
+Error: BOOK_A_ROOM.scenario1/GREETING-L4/BOOK-L1/Line 08: assertion error - Line 08: Expected text(s) in response &#x22;double&#x22;
+########################################
+ASSERTION FAILED in undefined - Expected: [&#x22;double&#x22;]  - Actual: {&#x22;sender&#x22;:&#x22;bot&#x22;,&#x22;sourceData&#x22;:{&#x22;request&#x22;:{&#x22;messageText&#x22;:&#x22;I want to book a single room.&#x22;,&#x22;buttons&#x22;:null,&#x22;media&#x22;:null},&#x22;session&#x22;:{}},&#x22;messageText&#x22;:&#x22;You said: I want to book a single room.&#x22;,&#x22;channel&#x22;:&#x22;default&#x22;}
+INPUT: I want to book a $type room.
+------------ TRANSCRIPT ----------------------------
+#me: Good afternoon
+#bot: You said: Good afternoon
+#me: what can i do for you?
+#bot: You said: what can i do for you?
+#me: Today is 4/14/2023
+#bot: You said: Today is 4/14/2023
+#me: I want to book a single room.
+#bot: You said: I want to book a single room.
+    at wrapBotiumError (/usr/local/lib/node_modules/botium-cli/src/run/index.js:76:12)
+    at finish (/usr/local/lib/node_modules/botium-cli/src/run/index.js:205:24)
+    at /usr/local/lib/node_modules/botium-cli/src/run/index.js:218:11</failure></testcase>
+<testcase classname="Botium Test-Suite" name="BOOK_A_ROOM.scenario1/GREETING-L5/BOOK-L1" time="0.507"><failure>BOOK_A_ROOM.scenario1/GREETING-L5/BOOK-L1/Line 08: assertion error - Line 08: Expected text(s) in response &#x22;double&#x22;
+########################################
+ASSERTION FAILED in undefined - Expected: [&#x22;double&#x22;]  - Actual: {&#x22;sender&#x22;:&#x22;bot&#x22;,&#x22;sourceData&#x22;:{&#x22;request&#x22;:{&#x22;messageText&#x22;:&#x22;I want to book a single room.&#x22;,&#x22;buttons&#x22;:null,&#x22;media&#x22;:null},&#x22;session&#x22;:{}},&#x22;messageText&#x22;:&#x22;You said: I want to book a single room.&#x22;,&#x22;channel&#x22;:&#x22;default&#x22;}
+INPUT: I want to book a $type room.
+------------ TRANSCRIPT ----------------------------
+#me: Good evening
+#bot: You said: Good evening
+#me: what can i do for you?
+#bot: You said: what can i do for you?
+#me: Today is 4/14/2023
+#bot: You said: Today is 4/14/2023
+#me: I want to book a single room.
+#bot: You said: I want to book a single room.
+Error: BOOK_A_ROOM.scenario1/GREETING-L5/BOOK-L1/Line 08: assertion error - Line 08: Expected text(s) in response &#x22;double&#x22;
+########################################
+ASSERTION FAILED in undefined - Expected: [&#x22;double&#x22;]  - Actual: {&#x22;sender&#x22;:&#x22;bot&#x22;,&#x22;sourceData&#x22;:{&#x22;request&#x22;:{&#x22;messageText&#x22;:&#x22;I want to book a single room.&#x22;,&#x22;buttons&#x22;:null,&#x22;media&#x22;:null},&#x22;session&#x22;:{}},&#x22;messageText&#x22;:&#x22;You said: I want to book a single room.&#x22;,&#x22;channel&#x22;:&#x22;default&#x22;}
+INPUT: I want to book a $type room.
+------------ TRANSCRIPT ----------------------------
+#me: Good evening
+#bot: You said: Good evening
+#me: what can i do for you?
+#bot: You said: what can i do for you?
+#me: Today is 4/14/2023
+#bot: You said: Today is 4/14/2023
+#me: I want to book a single room.
+#bot: You said: I want to book a single room.
+    at wrapBotiumError (/usr/local/lib/node_modules/botium-cli/src/run/index.js:76:12)
+    at finish (/usr/local/lib/node_modules/botium-cli/src/run/index.js:205:24)
+    at /usr/local/lib/node_modules/botium-cli/src/run/index.js:218:11</failure></testcase>
+<testcase classname="Botium Test-Suite" name="BOOK_A_ROOM.scenario1/GREETING-L6/BOOK-L1" time="0.507"><failure>BOOK_A_ROOM.scenario1/GREETING-L6/BOOK-L1/Line 08: assertion error - Line 08: Expected text(s) in response &#x22;double&#x22;
+########################################
+ASSERTION FAILED in undefined - Expected: [&#x22;double&#x22;]  - Actual: {&#x22;sender&#x22;:&#x22;bot&#x22;,&#x22;sourceData&#x22;:{&#x22;request&#x22;:{&#x22;messageText&#x22;:&#x22;I want to book a single room.&#x22;,&#x22;buttons&#x22;:null,&#x22;media&#x22;:null},&#x22;session&#x22;:{}},&#x22;messageText&#x22;:&#x22;You said: I want to book a single room.&#x22;,&#x22;channel&#x22;:&#x22;default&#x22;}
+INPUT: I want to book a $type room.
+------------ TRANSCRIPT ----------------------------
+#me: hi
+#bot: You said: hi
+#me: what can i do for you?
+#bot: You said: what can i do for you?
+#me: Today is 4/14/2023
+#bot: You said: Today is 4/14/2023
+#me: I want to book a single room.
+#bot: You said: I want to book a single room.
+Error: BOOK_A_ROOM.scenario1/GREETING-L6/BOOK-L1/Line 08: assertion error - Line 08: Expected text(s) in response &#x22;double&#x22;
+########################################
+ASSERTION FAILED in undefined - Expected: [&#x22;double&#x22;]  - Actual: {&#x22;sender&#x22;:&#x22;bot&#x22;,&#x22;sourceData&#x22;:{&#x22;request&#x22;:{&#x22;messageText&#x22;:&#x22;I want to book a single room.&#x22;,&#x22;buttons&#x22;:null,&#x22;media&#x22;:null},&#x22;session&#x22;:{}},&#x22;messageText&#x22;:&#x22;You said: I want to book a single room.&#x22;,&#x22;channel&#x22;:&#x22;default&#x22;}
+INPUT: I want to book a $type room.
+------------ TRANSCRIPT ----------------------------
+#me: hi
+#bot: You said: hi
+#me: what can i do for you?
+#bot: You said: what can i do for you?
+#me: Today is 4/14/2023
+#bot: You said: Today is 4/14/2023
+#me: I want to book a single room.
+#bot: You said: I want to book a single room.
+    at wrapBotiumError (/usr/local/lib/node_modules/botium-cli/src/run/index.js:76:12)
+    at finish (/usr/local/lib/node_modules/botium-cli/src/run/index.js:205:24)
+    at /usr/local/lib/node_modules/botium-cli/src/run/index.js:218:11</failure></testcase>
+<testcase classname="Botium Test-Suite" name="BOOK_A_ROOM.scenario1/GREETING-L7/BOOK-L1" time="0.507"><failure>BOOK_A_ROOM.scenario1/GREETING-L7/BOOK-L1/Line 08: assertion error - Line 08: Expected text(s) in response &#x22;double&#x22;
+########################################
+ASSERTION FAILED in undefined - Expected: [&#x22;double&#x22;]  - Actual: {&#x22;sender&#x22;:&#x22;bot&#x22;,&#x22;sourceData&#x22;:{&#x22;request&#x22;:{&#x22;messageText&#x22;:&#x22;I want to book a single room.&#x22;,&#x22;buttons&#x22;:null,&#x22;media&#x22;:null},&#x22;session&#x22;:{}},&#x22;messageText&#x22;:&#x22;You said: I want to book a single room.&#x22;,&#x22;channel&#x22;:&#x22;default&#x22;}
+INPUT: I want to book a $type room.
+------------ TRANSCRIPT ----------------------------
+#me: hello!
+#bot: You said: hello!
+#me: what can i do for you?
+#bot: You said: what can i do for you?
+#me: Today is 4/14/2023
+#bot: You said: Today is 4/14/2023
+#me: I want to book a single room.
+#bot: You said: I want to book a single room.
+Error: BOOK_A_ROOM.scenario1/GREETING-L7/BOOK-L1/Line 08: assertion error - Line 08: Expected text(s) in response &#x22;double&#x22;
+########################################
+ASSERTION FAILED in undefined - Expected: [&#x22;double&#x22;]  - Actual: {&#x22;sender&#x22;:&#x22;bot&#x22;,&#x22;sourceData&#x22;:{&#x22;request&#x22;:{&#x22;messageText&#x22;:&#x22;I want to book a single room.&#x22;,&#x22;buttons&#x22;:null,&#x22;media&#x22;:null},&#x22;session&#x22;:{}},&#x22;messageText&#x22;:&#x22;You said: I want to book a single room.&#x22;,&#x22;channel&#x22;:&#x22;default&#x22;}
+INPUT: I want to book a $type room.
+------------ TRANSCRIPT ----------------------------
+#me: hello!
+#bot: You said: hello!
+#me: what can i do for you?
+#bot: You said: what can i do for you?
+#me: Today is 4/14/2023
+#bot: You said: Today is 4/14/2023
+#me: I want to book a single room.
+#bot: You said: I want to book a single room.
+    at wrapBotiumError (/usr/local/lib/node_modules/botium-cli/src/run/index.js:76:12)
+    at finish (/usr/local/lib/node_modules/botium-cli/src/run/index.js:205:24)
+    at /usr/local/lib/node_modules/botium-cli/src/run/index.js:218:11</failure></testcase>
+<testcase classname="Botium Test-Suite" name="BOOK_A_ROOM.scenario2/GREETING-L1/BOOK-L1" time="0.509"/>
+<testcase classname="Botium Test-Suite" name="BOOK_A_ROOM.scenario2/GREETING-L2/BOOK-L1" time="0.508"/>
+<testcase classname="Botium Test-Suite" name="BOOK_A_ROOM.scenario2/GREETING-L3/BOOK-L1" time="0.507"/>
+<testcase classname="Botium Test-Suite" name="BOOK_A_ROOM.scenario2/GREETING-L4/BOOK-L1" time="0.509"/>
+<testcase classname="Botium Test-Suite" name="BOOK_A_ROOM.scenario2/GREETING-L5/BOOK-L1" time="0.508"/>
+<testcase classname="Botium Test-Suite" name="BOOK_A_ROOM.scenario2/GREETING-L6/BOOK-L1" time="0.508"/>
+<testcase classname="Botium Test-Suite" name="BOOK_A_ROOM.scenario2/GREETING-L7/BOOK-L1" time="0.509"/>
+<testcase classname="Botium Test-Suite" name="BUY_AN_ITEM.Case1/GREETING-L1" time="0.007"/>
+<testcase classname="Botium Test-Suite" name="BUY_AN_ITEM.Case1/GREETING-L2" time="0.009"/>
+<testcase classname="Botium Test-Suite" name="BUY_AN_ITEM.Case1/GREETING-L3" time="0.009"/>
+<testcase classname="Botium Test-Suite" name="BUY_AN_ITEM.Case1/GREETING-L4" time="0.008"/>
+<testcase classname="Botium Test-Suite" name="BUY_AN_ITEM.Case1/GREETING-L5" time="0.008"/>
+<testcase classname="Botium Test-Suite" name="BUY_AN_ITEM.Case1/GREETING-L6" time="0.006"/>
+<testcase classname="Botium Test-Suite" name="BUY_AN_ITEM.Case1/GREETING-L7" time="0.005"/>
+<testcase classname="Botium Test-Suite" name="BUY_AN_ITEM.Case2/GREETING-L1" time="0.01"/>
+<testcase classname="Botium Test-Suite" name="BUY_AN_ITEM.Case2/GREETING-L2" time="0.009"/>
+<testcase classname="Botium Test-Suite" name="BUY_AN_ITEM.Case2/GREETING-L3" time="0.008"/>
+<testcase classname="Botium Test-Suite" name="BUY_AN_ITEM.Case2/GREETING-L4" time="0.008"/>
+<testcase classname="Botium Test-Suite" name="BUY_AN_ITEM.Case2/GREETING-L5" time="0.007"/>
+<testcase classname="Botium Test-Suite" name="BUY_AN_ITEM.Case2/GREETING-L6" time="0.009"/>
+<testcase classname="Botium Test-Suite" name="BUY_AN_ITEM.Case2/GREETING-L7" time="0.006"/>
+<testcase classname="Botium Test-Suite" name="Update" time="0.003"/>
+<testcase classname="Botium Test-Suite" name="goodbye" time="0.503"/>
+<testcase classname="Botium Test-Suite" name="shortconvos" time="3.01"/>
+</testsuite>
