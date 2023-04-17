@@ -1,0 +1,4 @@
+    |$friut|$price
+Case 1|starfruit|5
+Case 2|apple|3
+Case 3|banana|6

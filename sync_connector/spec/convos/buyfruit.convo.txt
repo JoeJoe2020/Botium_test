@@ -1,0 +1,44 @@
+buy_fruit
+
+#begin
+SET_SCRIPTING_MEMORY answer|What can I do for you?
+
+#me
+hello
+
+#bot
+$answer
+
+#me
+what day is it？
+
+#bot
+Today is $date_EN
+
+#me
+How much the $friut is?
+
+#bot
+
+TEXT_CONTAINS_ALL $price
+
+#me
+How much the banana is?
+
+#bot
+The price is 5.
+
+#me
+How to pay?
+
+#bot
+Cash
+
+#me
+END
+
+#bot
+$answer
+
+#end
+CLEAR_SCRIPTING_MEMORY
