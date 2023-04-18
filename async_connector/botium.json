@@ -1,0 +1,10 @@
+{
+  "botium": {
+    "Capabilities": {
+      "PROJECTNAME": "Botium Connectors Sample",
+      "CONTAINERMODE": "./src/MyCustomConnector.js",
+      "CONNECTOR_AS_FILE_RESPONSE": "Hello World!" ,
+      "SCRIPTING_ENABLE_MEMORY": "true"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+greeting
+
+#me
+Hello
+
+#bot
+Hello World!
+
+#me
+How are you?
+
+#bot
+Hello World!
+
+#me
+Hi
+
+#bot
+Hello World!

@@ -1,0 +1,14 @@
+{
+  "botium": {
+    "Capabilities": {
+      "PROJECTNAME": "lex_connector",
+      "CONTAINERMODE": "lex",
+      "LEX_VERSION": "V1",
+      "LEX_REGION": "us-west-2",
+      "LEX_ACCESS_KEY_ID": "AKIATBVUP67KOAWN2PES",
+      "LEX_SECRET_ACCESS_KEY": "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",
+      "LEX_PROJECT_NAME": "OrderFlowers",
+      "LEX_PROJECT_ALIAS": "order_flowers"
+    }
+  }
+}
